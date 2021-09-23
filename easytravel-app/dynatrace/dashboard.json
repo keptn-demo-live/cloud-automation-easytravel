@@ -32,7 +32,7 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "[☁️Cloud Automation Overview](#dashboard;gtf=-2h;gf=all;id=c76e6ad1-bd40-43c4-8d47-879fcbfb9178) | [Cloud Automation Bridge](https://jmd02621.cloudautomation.live.dynatrace.com/bridge) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/cloud-automation-easytravel-1)\n- [✈️ Easytravel Classic](http://classic.13-66-185-36.nip.io/)\n- [⏱Tests schedule](https://dev.azure.com/demoability/_git/easytravel-cloudautomation?path=%2Fdeployment_schedule.md) | ",
+      "Markdown": "[☁️Cloud Automation Overview](#dashboard;gtf=-2h;gf=all;id=c76e6ad1-bd40-43c4-8d47-879fcbfb9178) | [Cloud Automation Bridge](https://jmd02621.cloudautomation.live.dynatrace.com/bridge) \n- [Keptn Easytravel GitOps](https://github.com/keptn-demo-live/cloud-automation-easytravel)\n- [✈️ Easytravel Classic](http://classic.13-66-185-36.nip.io/)\n- [⏱Tests schedule](https://dev.azure.com/demoability/_git/easytravel-cloudautomation?path=%2Fdeployment_schedule.md) ",
       "bounds": {
         "top": 190,
         "left": 0,
@@ -96,7 +96,7 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "Dynatrace helps on shifting left from Production to your developers by generating the SLI/SLO quality gate. SLI/SLO based Quality Gate:\n\n - [Generated from this Dashboard](https://github.com/keptn-demo-live/cloud-automation-easytravel-1/blob/quality-gate/easytravel-app/dynatrace/sli.yaml) \n - [Manual approach (template)](https://github.com/keptn-demo-live/cloud-automation-easytravel-1/blob/quality-gate/easytravel-app/dynatrace/sli.yaml.template)",
+      "Markdown": "Dynatrace helps on shifting left from Production to your Development by [generating the SLI/O Quality Gate definition from this 🔗 Dashboard](https://github.com/keptn-contrib/dynatrace-service/blob/master/documentation/sli-configuration.md#slis--slos-via-dynatrace-dashboard):\n\n - [Generated from this Dashboard](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml) \n - [Manual approach (template)](https://github.com/keptn-demo-live/cloud-automation-easytravel/blob/quality-gate/easytravel-app/dynatrace/sli.yaml.template)",
       "bounds": {
         "top": 0,
         "left": 798,
@@ -270,7 +270,7 @@
       }
     },
     {
-      "name": "Response Time by Test Step;sli=kpi_rt;pass=\u003c1000000,\u003c=+10%;warning=\u003c=500000;key=true",
+      "name": "Response Time by Test Step;sli=kpi_rt;pass=\u003c100,\u003c=+10%;warning=\u003c=600;key=true",
       "tileType": "DATA_EXPLORER",
       "configured": true,
       "query": "",
@@ -1072,7 +1072,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "DB calls;sli=db_calls;pass=\u003c21000,\u003c=+10%;warning=\u003e+10%",
+        "customName": "DB calls;sli=db_calls;pass=\u003c22000,\u003c=+10%;warning=\u003e+10%",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1172,7 +1172,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P50);sli=svc_rt_p50;pass=\u003c1500;warning=\u003c2000;weight=2;key=true",
+        "customName": "Response time (P50);sli=svc_rt_p50;pass=\u003c2;warning=\u003c3;weight=2;key=true",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1222,7 +1222,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c1500;warning=\u003c2000;weight=2;key=true",
+        "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c90;warning=\u003c110;weight=2;key=true",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
@@ -1272,7 +1272,7 @@
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c1500;warning=\u003c2000;weight=2;key=true",
+        "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c1100;warning=\u003c2000;weight=2;key=true",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,

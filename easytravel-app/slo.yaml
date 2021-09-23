@@ -6,103 +6,103 @@ comparison:
   number_of_comparison_results: 3
   aggregate_function: avg
 objectives:
-- sli: kpi_rt_4_-_Random_Search
-  displayName: ""
-  pass:
-  - criteria:
-    - <1000000
-    - <=+10%
-  warning:
-  - criteria:
-    - <=500000
-  weight: 1
-  key_sli: true
 - sli: kpi_rt_9_-_Finish_Payment
   displayName: ""
   pass:
   - criteria:
-    - <1000000
+    - <100
     - <=+10%
   warning:
   - criteria:
-    - <=500000
+    - <=600
+  weight: 1
+  key_sli: true
+- sli: kpi_rt_4_-_Random_Search
+  displayName: ""
+  pass:
+  - criteria:
+    - <100
+    - <=+10%
+  warning:
+  - criteria:
+    - <=600
   weight: 1
   key_sli: true
 - sli: kpi_rt_2_-_CalculateRecommendations
   displayName: ""
   pass:
   - criteria:
-    - <1000000
+    - <100
     - <=+10%
   warning:
   - criteria:
-    - <=500000
+    - <=600
   weight: 1
   key_sli: true
 - sli: kpi_rt_6_-_Select_Payment
   displayName: ""
   pass:
   - criteria:
-    - <1000000
+    - <100
     - <=+10%
   warning:
   - criteria:
-    - <=500000
+    - <=600
   weight: 1
   key_sli: true
 - sli: kpi_rt_5_-_Select_Journey
   displayName: ""
   pass:
   - criteria:
-    - <1000000
+    - <100
     - <=+10%
   warning:
   - criteria:
-    - <=500000
-  weight: 1
-  key_sli: true
-- sli: kpi_rt_3_-_Login
-  displayName: ""
-  pass:
-  - criteria:
-    - <1000000
-    - <=+10%
-  warning:
-  - criteria:
-    - <=500000
+    - <=600
   weight: 1
   key_sli: true
 - sli: kpi_rt_8_-_Submit_Payment
   displayName: ""
   pass:
   - criteria:
-    - <1000000
+    - <100
     - <=+10%
   warning:
   - criteria:
-    - <=500000
+    - <=600
+  weight: 1
+  key_sli: true
+- sli: kpi_rt_3_-_Login
+  displayName: ""
+  pass:
+  - criteria:
+    - <100
+    - <=+10%
+  warning:
+  - criteria:
+    - <=600
   weight: 1
   key_sli: true
 - sli: kpi_rt_7_-_Mock_Creditcard_Number
   displayName: ""
   pass:
   - criteria:
-    - <1000000
+    - <100
     - <=+10%
   warning:
   - criteria:
-    - <=500000
+    - <=600
   weight: 1
   key_sli: true
 - sli: kpi_rt_1_-_Home_Page
   displayName: ""
   pass:
   - criteria:
-    - <1000000
+    - <100
     - <=+10%
   warning:
   - criteria:
-    - <=500000
+    - <=600
   weight: 1
   key_sli: true
 - sli: kpi_et_ex
@@ -170,7 +170,7 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <21000
+    - <22000
     - <=+10%
   warning:
   - criteria:
@@ -192,27 +192,27 @@ objectives:
   displayName: ""
   pass:
   - criteria:
-    - <1500
+    - <2
   warning:
   - criteria:
-    - <2000
+    - <3
   weight: 2
   key_sli: true
 - sli: svc_rt_p90
   displayName: ""
   pass:
   - criteria:
-    - <1500
+    - <90
   warning:
   - criteria:
-    - <2000
+    - <110
   weight: 2
   key_sli: true
 - sli: svc_rt_p95
   displayName: ""
   pass:
   - criteria:
-    - <1500
+    - <1100
   warning:
   - criteria:
     - <2000
